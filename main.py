@@ -1,5 +1,5 @@
 #from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
-import requests
+#import requests
 import json
 import subprocess
 from pyrogram import Client, filters
