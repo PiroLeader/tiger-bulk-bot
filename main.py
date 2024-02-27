@@ -1,5 +1,5 @@
-#from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
-#import requests
+from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
+import requests
 import json
 import subprocess
 from pyrogram import Client, filters
@@ -17,7 +17,6 @@ from logger import logging
 import time
 import asyncio
 from pyrogram.types import User, Message
-from config import *
 import sys
 import re
 import os
